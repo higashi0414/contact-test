@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+    padding: 0;
+      font-family: 'Georgia', serif;
+}
+
+.header {
+    background-color: #fff;
+    padding: 20px;
+}
+
+.header__logo {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+    text-decoration: none;
+}
+
+.header {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff;
+}
+
+.header__logo-wrapper {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+}
+
+.header__nav {
+    margin-left: auto;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+}
+
+.header__link,
+.logout-button {
+    background: none;
+    border: 1px solid #e0dbd3;
+    border-radius: 4px;
+    color: #b9a89c;
+    text-decoration: none;
+    font-size: 14px;
+    padding: 8px 12px;
+    cursor: pointer;
+}
+
+.logout-button {
+    font-family: inherit;
+}
+
+
+
+
+
+

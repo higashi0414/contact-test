@@ -1,0 +1,66 @@
+.confirm {
+    width: 70%;
+    margin: 0 auto;
+    padding: 40px 0;
+    font-family: 'Arial', sans-serif;
+}
+
+.confirm__title {
+    font-family: 'Georgia', serif;
+    color: #8b7355;
+    font-size: 32px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.confirm__table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 30px;
+}
+
+.confirm__table th,
+.confirm__table td {
+    border: 1px solid #ddd;
+    padding: 12px 16px;
+    text-align: left;
+    vertical-align: top;
+}
+
+.confirm__table th {
+    background-color: #c5b7ab;
+    color: white;
+    width: 30%;
+    font-weight: bold;
+}
+
+.confirm__buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.confirm__button {
+    background-color: #7f6c5f;
+    color: white;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.confirm__button:hover {
+    background-color: #5f5145;
+}
+
+.confirm__link {
+    display: inline-block;
+    padding: 10px 30px;
+    border: none;
+    color: #7f6c5f;
+    text-decoration: underline;
+    font-size: 16px;
+    cursor: pointer;
+}
