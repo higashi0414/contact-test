@@ -1,0 +1,31 @@
+.thanks-container {
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #fff url('/images/thank_you_bg.png') no-repeat center center;
+    background-size: contain;
+    position: relative;
+}
+
+.thanks-message {
+    text-align: center;
+    position: relative;
+    z-index: 2;
+}
+
+.thanks-text {
+    font-size: 18px;
+    color: #6c5a4d;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.home-button {
+    background-color: #6c5a4d;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 14px;
+}

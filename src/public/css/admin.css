@@ -1,0 +1,200 @@
+body {
+    background-color: #fefefe;
+    color: #4b3f3f;
+    font-family: 'Georgia', serif;
+}
+
+main {
+    padding: 50px 80px;
+}
+
+.admin-container {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.admin-title {
+    font-size: 28px;
+    text-align: center;
+    font-weight: bold;
+    color: #5a4234;
+    margin-bottom: 30px;
+}
+
+.admin-search-area {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 30px;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.search-form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    align-items: center;
+}
+
+.search-input,
+.search-select,
+.search-date {
+    padding: 8px 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    width: 180px;
+    background-color: #fff;
+}
+
+.search-button,
+.export-button {
+    background-color: #7e6753;
+    color: #fff;
+    border: none;
+    padding: 8px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.reset-link {
+    font-size: 14px;
+    color: #d4b8a3;
+    text-decoration: none;
+    padding-left: 10px;
+}
+
+.table-and-pagination-wrapper {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.05);
+}
+
+.contact-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+.contact-table thead th {
+    background-color: #7e6753;
+    color: #fff;
+    padding: 12px 8px;
+    text-align: left;
+}
+
+.contact-table tbody td {
+    padding: 12px 8px;
+    border-bottom: 1px solid #eee;
+}
+
+.contact-table tbody tr:last-child td {
+    border-bottom: none;
+}
+
+.detail-button {
+    background-color: transparent;
+    color: #d3bda6;
+    border: 1px solid #d3bda6;
+    padding: 5px 15px;
+    border-radius: 4px;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.pagination a,
+.pagination span {
+    text-decoration: none;
+    color: #5a4234;
+    border: 1px solid #ccc;
+    padding: 5px 10px;
+    border-radius: 4px;
+    font-size: 13px;
+}
+
+.pagination .current-page,
+.pagination .active span {
+    background-color: #7e6753;
+    color: #fff;
+}
+
+.modal-content {
+    border-radius: 12px;
+    padding: 30px 40px;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.modal-header {
+    border-bottom: none;
+    text-align: center;
+    padding-bottom: 0;
+}
+
+.modal-title {
+    font-size: 20px;
+    color: #5a4234;
+    font-weight: bold;
+    text-align: center;
+    width: 100%;
+    font-family: 'Helvetica Neue', 'Arial', sans-serif;
+}
+
+.modal-body {
+    padding-top: 0;
+}
+
+.modal-item {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.modal-label {
+    width: 180px;
+    font-weight: bold;
+    color: #5a4234;
+    font-size: 14px;
+    padding-right: 10px;
+}
+
+.modal-data {
+    flex-grow: 1;
+    color: #333;
+    font-size: 14px;
+    padding-top: 2px;
+}
+
+.message-content {
+    flex-direction: column;
+}
+
+.message-content .modal-data {
+    border: 1px solid #ddd;
+    background-color: #fafafa;
+    padding: 15px;
+    border-radius: 5px;
+    white-space: pre-wrap;
+    font-size: 14px;
+}
+
+.delete-button {
+    background-color: #cb5c5c;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 0 auto;
+    display: block;
+}
